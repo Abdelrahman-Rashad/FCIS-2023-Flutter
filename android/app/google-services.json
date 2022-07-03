@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "658274729903",
+    "project_id": "fcis-2023",
+    "storage_bucket": "fcis-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658274729903:android:3a8564708f729f2d52395a",
+        "android_client_info": {
+          "package_name": "com.example.fcis2023"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658274729903-ncgddu5r0tarec0ceir3i4mjq6mnjvds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8FlKg-Blw7aKAgMRTtj8qYg144XZvIhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658274729903-ncgddu5r0tarec0ceir3i4mjq6mnjvds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
