@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fcis2023/view/Home.dart';
 import 'package:fcis2023/view/login.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -9,6 +10,7 @@ class AuthController extends GetxController{
   static AuthController instance = Get.find();
   FirebaseAuth _auth=FirebaseAuth.instance;
   late Rx<User?> _user;
+
 
   @override
   void onReady() {
@@ -27,9 +29,18 @@ class AuthController extends GetxController{
     }
   }
 
-  void SignUp(String email,String password)async{
+  void SignUp(String firstname,String lastname,String email,String password)async{
     try {
-      await _auth.createUserWithEmailAndPassword(email: email, password: password);
+      CollectionReference reference=FirebaseFirestore.instance.collection("users");
+      
+      Map<String,String> userdata={
+        "First Name":firstname,
+        "Last Name":lastname,
+        "Email":email,
+      };
+      await _auth.createUserWithEmailAndPassword(email: email, password: password).then((value) =>reference.add(userdata)
+        );
+
     }catch(e){
       Get.snackbar("About User", "User message",backgroundColor: Colors.teal,snackPosition: SnackPosition.BOTTOM,titleText: Text("Account creation failed",style: TextStyle(color:Colors.white)),messageText: Text(e.toString(),style: TextStyle(color:Colors.white)));
     }
@@ -46,4 +57,5 @@ class AuthController extends GetxController{
   void logout()async{
     await _auth.signOut();
   }
+  
 }

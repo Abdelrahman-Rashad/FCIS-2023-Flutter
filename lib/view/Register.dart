@@ -6,6 +6,8 @@ class Register extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var firstnameController=TextEditingController();
+    var lastnameController=TextEditingController();
     var emailController=TextEditingController();
     var passwordController=TextEditingController();
 
@@ -16,7 +18,26 @@ class Register extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
 
           children: [
-            
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextFormField(
+                controller: firstnameController,
+                decoration: InputDecoration(
+                  border: OutlineInputBorder(),
+                  labelText: 'enter your First name'
+                  ),
+                ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextFormField(
+                controller: lastnameController,
+                decoration: InputDecoration(
+                  border: OutlineInputBorder(),
+                  labelText: 'enter your last name'
+                  ),
+                ),
+            ),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextFormField(
@@ -41,7 +62,7 @@ class Register extends StatelessWidget {
               height: 20,
             ),
             ElevatedButton(onPressed: (){
-              AuthController.instance.SignUp(emailController.text.trim(), passwordController.text.trim());
+              AuthController.instance.SignUp(firstnameController.text.trim(),lastnameController.text.trim(),emailController.text.trim(), passwordController.text.trim());
             }, child: Text("Register"))
           ],
         ),
