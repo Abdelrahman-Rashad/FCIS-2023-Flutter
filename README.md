@@ -5,7 +5,7 @@
 
 ### Aiming
 This application aims to collect all materials about college courses in one place.
-### Technologye
+### Technology
 I used Flutter technologye to provide this app in Android and IOS.<br />
 1- Getx <br />
 2- MVC <br />
