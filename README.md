@@ -1,7 +1,12 @@
 # FCIS 2023
-![](assets/logo_transparent.png)
+
+<p style="text-align:center;">
+<img src="https://github.com/Abdelrahman-Rashad/FCIS-2023-Flutter/blob/main/assets/logo_transparent.png" alt="Logo" width="60%">
+</p>
+
 
 ## Project Description
+https://github.com/Abdelrahman-Rashad/FCIS-2023-Flutter/releases/download/v1.0.0/app-release.apk
 
 ### Aiming
 This application aims to collect all materials about college courses in one place.
