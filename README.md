@@ -16,8 +16,8 @@ I used Flutter technologye to provide this app in Android and IOS.<br />
 ## Problems
 I faced some problems in firebase such as connecting firestore to my app (save user information in firestore and display it in profile page) but I solved it.
 ## installation
-You can download APK from here : (https://github.com/Abdelrahman-Rashad/FCIS-2023-Flutter/releases/download/v1.0.0/app-release.apk).
-Send APK to your phone and install it.
+You can download APK from here : (https://github.com/Abdelrahman-Rashad/FCIS-2023-Flutter/releases/download/v1.0.0/app-release.apk).<br />
+Send APK to your phone and install it.<br />
 
 ## Language 
 Dart
