@@ -1,16 +1,12 @@
-# fcis2023
+# FCIS 2023
 
 A new Flutter project.
 
-## Getting Started
+## Project Description
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+This application aims to collect all materials about my collage. I used Flutter technologye to provide this app in Android and IOS. I faced some problems in firebase such as connecting firestore to my app (save user information in firestore and display it in profile page) but I solved it.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Images
+![](assets/logo_transparent.png)
