@@ -3,20 +3,19 @@
 
 ## Project Description
 
-This project is a starting point for a Flutter application.
 ### Aiming
 This application aims to collect all materials about my collage. 
 ### Technologye
-I used Flutter technologye to provide this app in Android and IOS._
+I used Flutter technologye to provide this app in Android and IOS.<br />
 1- Getx <br />
-2- MVC
-3- FireBase => (Authentication , Cloud Firestore)
-4- API
-5- Shared Preference
+2- MVC <br />
+3- FireBase => (Authentication , Cloud Firestore) <br />
+4- API <br />
+5- Shared Preference <br />
 ### Language 
 Dart
 
-
+### Problems
 I faced some problems in firebase such as connecting firestore to my app (save user information in firestore and display it in profile page) but I solved it.
 
 ## Images
