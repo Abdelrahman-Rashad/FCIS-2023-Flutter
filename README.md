@@ -10,3 +10,5 @@ This application aims to collect all materials about my collage. I used Flutter 
 
 ## Images
 ![](Mockup/Group%2038.png)
+![](Mockup/Frame 7.png)
+![](Mockup/Frame 8.png)
