@@ -42,24 +42,14 @@ class CourseCard extends StatelessWidget {
                 fit: BoxFit.cover),
           ),
           child: Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(20.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text("${course.name}",
-                      style: Theme.of(context).textTheme.headline2),
-                ),
-                Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text("${course.doctorName}",
-                          style: Theme.of(context).textTheme.headline6),
-                    ),
-                  ],
-                ),
+                Text("${course.name}",
+                    style: Theme.of(context).textTheme.headline2),
+                Text("${course.doctorName}",
+                    style: Theme.of(context).textTheme.headline6),
               ],
             ),
           ),

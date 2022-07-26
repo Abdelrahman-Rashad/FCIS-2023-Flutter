@@ -42,19 +42,21 @@ class coursedetialbody extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 50, 0, 10),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(course.name.toString(),
-                            style: Theme.of(context).textTheme.headline2),
-                        Padding(
-                          padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
-                          child: Text(course.doctorName.toString(),
+                    child: Container(
+                      height: MediaQuery.of(context).size.height *0.3,
+                      width: MediaQuery.of(context).size.width,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(course.name.toString(),
+                              style: Theme.of(context).textTheme.headline2),
+                          Text(course.doctorName.toString(),
                               style: Theme.of(context).textTheme.headline6),
-                        ),
-                        Text(course.doctorEmail.toString(),
-                            style: Theme.of(context).textTheme.headline3)
-                      ],
+                              SizedBox(height: 15,),
+                          Text(course.doctorEmail.toString(),
+                              style: Theme.of(context).textTheme.headline3)
+                        ],
+                      ),
                     ),
                   ),
                   Container(
@@ -68,7 +70,7 @@ class coursedetialbody extends StatelessWidget {
                               topRight: Radius.circular(30.0))),
                       child: Obx(() {
                         return Container(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 20),
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, MediaQuery.of(context).size.height * 0.08),
                           child: ListView.builder(
                               itemCount: control.course_detail.length,
                               itemBuilder: (context, index) {
