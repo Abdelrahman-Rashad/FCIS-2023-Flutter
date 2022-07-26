@@ -25,9 +25,16 @@ Dart
 ## UI Design
 I used Figma to design the application and make beautiful mockup
 
+## Video
+https://user-images.githubusercontent.com/62859783/181097330-a9b8795c-6cb1-44d8-997f-666cf0a88f9b.mp4
+
 ## Images
 ![](Mockup/Group%2038.png)
 ![](Mockup/Frame%207.png)
 ![](Mockup/Frame%208.png)
+
+
+
+
 
 
