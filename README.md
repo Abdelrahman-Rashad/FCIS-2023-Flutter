@@ -7,7 +7,7 @@ This project is a starting point for a Flutter application.
 ### Aiming
 This application aims to collect all materials about my collage. 
 ### Technologye
-I used Flutter technologye to provide this app in Android and IOS.__
+I used Flutter technologye to provide this app in Android and IOS._
 1- Getx <br />
 2- MVC
 3- FireBase => (Authentication , Cloud Firestore)
