@@ -12,8 +12,6 @@ I used Flutter technologye to provide this app in Android and IOS.<br />
 3- FireBase => (Authentication , Cloud Firestore) <br />
 4- API <br />
 5- Shared Preference <br />
-### Language 
-Dart
 
 ### Problems
 I faced some problems in firebase such as connecting firestore to my app (save user information in firestore and display it in profile page) but I solved it.
@@ -22,3 +20,9 @@ I faced some problems in firebase such as connecting firestore to my app (save u
 ![](Mockup/Group%2038.png)
 ![](Mockup/Frame%207.png)
 ![](Mockup/Frame%208.png)
+
+## Language 
+Dart
+
+## UI Design
+I used Figma to design the application and make beautiful mockup
