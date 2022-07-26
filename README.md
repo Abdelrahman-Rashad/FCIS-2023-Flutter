@@ -4,7 +4,7 @@
 ## Project Description
 
 ### Aiming
-This application aims to collect all materials about my collage. 
+This application aims to collect all materials about college courses in one place.
 ### Technologye
 I used Flutter technologye to provide this app in Android and IOS.<br />
 1- Getx <br />
